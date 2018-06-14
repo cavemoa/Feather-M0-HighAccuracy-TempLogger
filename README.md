@@ -12,3 +12,9 @@ So once you have maximized your ADC range the next trick is to oversample to get
 > From the cave pearl post: "you need to read the ADC four to the power of n times.  Generally you have to add three extra bits (43= 128 samples) to see approximately an order of magnitude improvement in your real world resolution. With thermistor dividers, you typically get about 0.1°C from the default ADC readings, and 128 samples bumps that to 0.012°C.  Taking (46= 4096) samples would bump that up to ~0.0015°C which, as the saying goes, is good enough for government work…"
 
 That works for me!
+
+So Edward uses the 328 Arduino clones, my weapon of choice is the [Adafruit Feather M0](https://www.adafruit.com/product/2796) usually in the logger version. So my plan is to follow edwards journey but using the [Adafruit Feather M0](https://www.adafruit.com/product/2796) and a readily available 10K Thermistor (beta: 3950) from [Sparkfun](https://www.sparkfun.com/products/250).
+
+> Can I get a $0.75 Thermistor and a $19.95 Feather to a resolution of 1 milli kelvin / 0.001°C I guess we will see !
+
+Now be careful, resolution and accuracy are very different so I'm also going to see what accuracy I can actually reproduce repeatedly. Thats not code & maths its calibration so I guess we will see but that will more likely be 0.1 °C
