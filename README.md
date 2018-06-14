@@ -1,5 +1,9 @@
 # Feather-M0-HighAccuracy-TempLogger
 
+### Code
+### Techniques
+### References and general info
+
 This will be a series of files developing the ideas and concepts around getting the maximum temperature accuracy and resolution from an Adafruit Feather M0. These great little board have some real grunt and after reading the amazing posts over at the [CavePearl project](https://thecavepearlproject.org/) I thought I would follow in Edward Mallon's footsteps. If you have never read his blog posts and you are even faintly interested in logging with Arduino's then you should. What he has achieved is amazing and his concept of using the cheapest parts and arduino clones in such harsh environments is amazing. 
 
 Recently he wrote two posts, one on ["How to read thermistors"](https://thecavepearlproject.org/2016/06/09/better-thermistor-readings-with-an-arduino-series-resistors-aref/) and one on [oversampling the arduino ADC](https://thecavepearlproject.org/2017/02/27/enhancing-arduinos-adc-resolution-by-dithering-oversampling/). The punch line is he is able to calibrate and read a generic Therimstor  delivering an effective resolution of ~0.0028°C with a 10bit Arduino cloneboard. Thats pretty amazing and his articles cover the trials/tribulations and learnings on trying to do this. The articles take some reading, not becasuse its complex but because there are a few pieces to the puzzle and also there are few side references you need to read to really understand things. Basically you need to go on the journey with him.
@@ -17,4 +21,9 @@ So Edward uses the 328 Arduino clones, my weapon of choice is the [Adafruit Feat
 
 > Can I get a $0.75 Thermistor and a $19.95 Feather to a resolution of 1 milli kelvin / 0.001°C I guess we will see !
 
-Now be careful, resolution and accuracy are very different so I'm also going to see what accuracy I can actually reproduce repeatedly. Thats not code & maths its calibration so I guess we will see but that will more likely be 0.1 °C
+Now be careful, resolution and accuracy are very different so I'm also going to see what accuracy I can actually reproduce repeatedly. Thats not code & maths its calibration so I guess we will see but that will more likely be 0.1 °C using an icebath. I think my challenge here is trying to get multiple calibration points at sensible temperature range.
+My personal interest is also in caves so I need to measure 6-12°C range realistically. I'm afraid if you are looking for -20-100°C thats journey you will be going on alone !
+
+### Code
+### Techniques
+### References and general info
