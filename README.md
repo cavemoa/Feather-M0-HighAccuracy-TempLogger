@@ -2,7 +2,7 @@
 
 ### [Wiki Pages](https://github.com/cavemoa/Feather-M0-HighAccuracy-TempLogger/wiki) have code descriptions and more details
 
-### The Concept
+### General Idea & Concept
 This will be a series of files developing the ideas and concepts around getting the maximum temperature accuracy and resolution from an Adafruit Feather M0. These great little board have some real grunt and after reading the amazing posts over at the [CavePearl project](https://thecavepearlproject.org/) I thought I would follow in Edward Mallon's footsteps. If you have never read his blog posts and you are even faintly interested in logging with Arduino's then you should. What he has achieved is amazing and his concept of using the cheapest parts and arduino clones in such harsh environments is amazing. 
 
 Recently he wrote two posts, one on ["How to read thermistors"](https://thecavepearlproject.org/2016/06/09/better-thermistor-readings-with-an-arduino-series-resistors-aref/) and one on [oversampling the arduino ADC](https://thecavepearlproject.org/2017/02/27/enhancing-arduinos-adc-resolution-by-dithering-oversampling/). The punch line is he is able to calibrate and read a generic Therimstor  delivering an effective resolution of ~0.0028°C with a 10bit Arduino cloneboard. Thats pretty amazing and his articles cover the trials/tribulations and learnings on trying to do this. The articles take some reading, not becasuse its complex but because there are a few pieces to the puzzle and also there are few side references you need to read to really understand things. Basically you need to go on the journey with him.
