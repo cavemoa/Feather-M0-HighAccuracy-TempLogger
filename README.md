@@ -1,6 +1,6 @@
 # Feather-M0-HighAccuracy-TempLogger
 
-### [Wiki Pages](https://github.com/cavemoa/Feather-M0-HighAccuracy-TempLogger/wiki)
+### [Wiki Pages](https://github.com/cavemoa/Feather-M0-HighAccuracy-TempLogger/wiki) have code descriptions and more details
 
 ### The Concept
 This will be a series of files developing the ideas and concepts around getting the maximum temperature accuracy and resolution from an Adafruit Feather M0. These great little board have some real grunt and after reading the amazing posts over at the [CavePearl project](https://thecavepearlproject.org/) I thought I would follow in Edward Mallon's footsteps. If you have never read his blog posts and you are even faintly interested in logging with Arduino's then you should. What he has achieved is amazing and his concept of using the cheapest parts and arduino clones in such harsh environments is amazing. 
